@@ -1,7 +1,9 @@
 {
   "name": "realm-schema-to-typescript",
   "version": "0.0.1",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "dist"
   ],
@@ -17,8 +19,7 @@
     "eslint": "^6.4.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-prettier": "^3.1.1",
-    "prettier": "^1.18.2",
-    "typescript": "^3.6.3"
+    "prettier": "^1.18.2"
   },
   "scripts": {
     "lint": "eslint --ext .js,.ts --ignore-path .gitignore .",
@@ -26,6 +27,7 @@
   },
   "dependencies": {
     "realm": "^3.0.0",
-    "yargs": "^14.0.0"
+    "yargs": "^14.0.0",
+    "typescript": "^3.7.2"
   }
 }
