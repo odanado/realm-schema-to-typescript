@@ -12,9 +12,7 @@ $ npx realm-schema-to-typescript --input /path/to/file.realm --directory generat
 
 ### From TypeScript
 ```ts
-import { SchemaReader } from './schema-reader';
-import { Transpiler } from './transpiler';
-
+import { SchemaReader, Transpiler } from 'realm-schema-to-typescript';
 
 const schemaReader = new SchemaReader();
 const transpiler = new Transpiler();
